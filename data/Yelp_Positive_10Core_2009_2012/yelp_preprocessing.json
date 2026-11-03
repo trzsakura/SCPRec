@@ -1,0 +1,51 @@
+{
+  "all_year_positive_rows": 4684545,
+  "audit": {
+    "all_labels_positive": true,
+    "cold_evaluation_policy": "retained_without_filtering_or_repair",
+    "duplicate_user_item_pairs": 0,
+    "future_history_timestamp_rows": 0,
+    "minimum_item_degree": 10,
+    "minimum_user_degree": 10,
+    "real_items": 3018,
+    "split_counts": {
+      "test": 3243,
+      "train": 65332,
+      "valid": 3243
+    },
+    "target_in_history_rows": 0,
+    "users": 3243
+  },
+  "businesses_missing_from_business_json": 0,
+  "cold_evaluation_policy": "retain_without_filtering_or_repair",
+  "core": 10,
+  "core_rounds": 19,
+  "deduplicated_rows": 467383,
+  "deduplication": "earliest_review_per_user_business_pair",
+  "duplicate_user_business_rows_removed": 12191,
+  "end_year": 2012,
+  "first_context_only_interactions": 3243,
+  "first_interaction_policy": "context_only_not_emitted_as_target",
+  "items_after_core": 3018,
+  "minimum_item_degree": 10,
+  "minimum_user_degree": 10,
+  "missing_business_metadata": 0,
+  "no_user_sampling": true,
+  "positive_rule": "stars > 3 (4-5 stars)",
+  "protocol": "yelp_positive_iterative_k_core_leave_two_out_v1",
+  "raw_review_rows": 6990280,
+  "real_items": 3018,
+  "rows_after_core": 75061,
+  "saved_next_item_rows": 71818,
+  "selected_positive_rows": 479574,
+  "source_interactions_after_core": 75061,
+  "split_counts": {
+    "test": 3243,
+    "train": 65332,
+    "valid": 3243
+  },
+  "split_policy": "per_user_chronological_leave_two_out",
+  "start_year": 2009,
+  "users": 3243,
+  "users_after_core": 3243
+}

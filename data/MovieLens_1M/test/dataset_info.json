@@ -1,0 +1,60 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "user_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "history_item_id": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "item_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "history_item_title": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "item_title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "history_rating": {
+      "feature": {
+        "dtype": "null",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "rating": {
+      "dtype": "null",
+      "_type": "Value"
+    },
+    "history_timestamp": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "timestamp": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "interaction_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

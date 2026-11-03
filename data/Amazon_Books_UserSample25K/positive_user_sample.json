@@ -1,0 +1,43 @@
+{
+  "actual_total_rows": 24793,
+  "all_labels_positive": true,
+  "deduplicated_rows": 0,
+  "label_counts": {
+    "test": {
+      "1": 316
+    },
+    "train": {
+      "1": 24174
+    },
+    "valid": {
+      "1": 303
+    }
+  },
+  "parent_dataset": "Amazon_Books_CoLLM_PositiveOnly_UserSample65K_Dedup",
+  "real_items": 12733,
+  "removed_cold_eval_rows": {
+    "test": 119,
+    "valid": 91
+  },
+  "rows_after_dedup": 25003,
+  "sample_split_counts_before_dedup": {
+    "test": 435,
+    "train": 24174,
+    "valid": 394
+  },
+  "sampled_rows_before_dedup": 25003,
+  "seed": 42,
+  "selected_users": 1197,
+  "selection_method": "positive_only_uniform_user_prefix_dedup_drop_cold_eval_items",
+  "source_split_counts": {
+    "test": 1117,
+    "train": 61867,
+    "valid": 1068
+  },
+  "split_counts": {
+    "test": 316,
+    "train": 24174,
+    "valid": 303
+  },
+  "target_total_rows": 25000
+}
