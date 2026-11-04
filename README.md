@@ -42,9 +42,7 @@ used by the training path in this repository.
 |   |-- launch_stage1.sh
 |   |-- launch_stage2.sh
 |   `-- train_experts.sh
-|-- docs/
-|-- LICENSE
-`-- NOTICE
+`-- LICENSE
 ```
 
 ## Runtime
@@ -61,9 +59,9 @@ machine is offline.
 ## Dataset
 
 Training reads processed Hugging Face `DatasetDict` directories saved with
-`save_to_disk`. Place the released datasets under `data/` and see
-`docs/DATASET_FORMAT.md` for the exact split and column contract. Dataset
-preprocessing programs are intentionally outside this core-code release.
+`save_to_disk`. Place the released datasets under `data/`. Each dataset must
+contain `train`, `valid`, `test`, and `item_info` splits. Dataset preprocessing
+programs are intentionally outside this core-code release.
 
 ## Train the four experts
 
@@ -143,5 +141,4 @@ already present in the visible history.
 
 ## License
 
-The retained upstream MIT license text is in `LICENSE`. See `NOTICE` for the
-release boundary.
+The retained upstream MIT license text is in `LICENSE`.
